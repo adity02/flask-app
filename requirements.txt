@@ -1,1 +1,1 @@
-flask
+echo "pytest" > requirements.txt

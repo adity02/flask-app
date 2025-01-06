@@ -1,10 +1,5 @@
-from flask import Flask
+def main():
+    print("Hello from Jenkins CI/CD pipeline!")
 
-app = Flask(__name__)
-
-@app.route('/')
-def hello():
-	return "Hello, CI/CD World!"
-
-if __name__ == "__main__":
-	app.run(debug=True)
+if __name__ =="__main__":
+    main()
